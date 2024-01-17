@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    color: #3f1d0b;
 }
 
-#main {
+.main {
     background-image: url(background.avif);
-    /* opacity: 0.4; */
     background-size: contain;
     height: 100vh;
     display: flex;
@@ -13,7 +13,7 @@
     justify-content: center;
 }
 
-#main1 {
+.main1 {
     width: 95%;
     height: 90%;
     border-radius: 0.9rem;
@@ -84,3 +84,27 @@
     width: 50%;
 }
 
+.extra img {
+    height: 120px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.lasst {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color:rgba(255,255,255,0.7);
+}
+
+.main1 h3 {
+    text-align: center;
+}
+
+.btnl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
