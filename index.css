@@ -108,3 +108,15 @@
     justify-content: center;
     align-items: center;
 }
+
+.footer {
+    padding: 0.5rem;
+    background-color:#dbc1ac;
+    display: flex;
+    height: 140px;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+}
